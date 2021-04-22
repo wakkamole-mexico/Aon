@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/wakkamole-mexico/Aon/issues"
   },
-  "homepage": "https://github.com/wakkamole-mexico/Aon#readme"
+  "homepage": "https://github.com/wakkamole-mexico/Aon#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
