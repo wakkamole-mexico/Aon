@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Menu from './components/Menu';
+import App from './containers/App';
 
-
-
-ReactDOM.render(<Menu/>, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
