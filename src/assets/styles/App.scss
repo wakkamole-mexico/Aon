@@ -1,7 +1,17 @@
+@import "./Vars.scss";
+
 body {
     margin: 0;
-    background-color: aquamarine;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $theme-font;
+    background-color: #F3F8FB;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 ::-webkit-scrollbar {
     display: none;
   }
