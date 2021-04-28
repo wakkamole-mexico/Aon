@@ -13,13 +13,13 @@
     height: auto;
     display: grid;
     grid-template-columns: 50px 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto .5fr auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
         "header menu menu bot bot"
         "header menu menu bot bot"
-        "header imagen title title title"
-        "header imagen bullets bullets bullets"
-        "header imagen bullets bullets bullets";
+        "header imagen item item item"
+        "header imagen item item item"
+        "header imagen item item item";
 }
 
 .icon__riegos{
@@ -79,34 +79,6 @@
     max-width: 100%;
 }
 
-.riesgos__title{
-    grid-area: title;
-}
 
-.riesgos__title h1{
-    font-size: calc(2em + 1vw);
-    margin: 0;
-}
-.riesgos__title h2{
-    font-size: calc(1em + 1vw);
-    margin: 0;
-    color: #682381;
-}
 
-.riesgos__bullets{
-    grid-area: bullets;
-    padding: 2em;
-    margin-bottom: 2em;
-}
 
-.riesgos__bullets h3{
-    font-size:calc(.5em + 1vw);
-}
-
-.riesgos__bullets p{
-    font-size: calc(.3em + 1vw);
-}
-
-.servicios__title{
-    grid-area: title;
-}
