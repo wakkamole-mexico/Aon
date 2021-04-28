@@ -14,6 +14,7 @@ import IconBars from '../assets/static/bars.svg';
 import ImgRiesgos from '../assets/static/enegia-imagen-riesgos.png';
 import '../assets/styles/components/Riesgos.scss';
 import RiesgosPA from './RiesgosPA';
+import RiesgosA from './RiesgosA';
 
 function Riesgos() {
   return (
@@ -39,14 +40,16 @@ function Riesgos() {
                 </div>
               </div>
             </NavLink>
-            <div className='riesgo__op'>
-              <div className='riesgo__op--icon'>
-                <img src={IconCash} alt='' />
+            <NavLink to='/RiesgosA'>
+              <div className='riesgo__op'>
+                <div className='riesgo__op--icon'>
+                  <img src={IconCash} alt='' />
+                </div>
+                <div className='riesgo__op--title'>
+                  <p>Riesgos Asegurables</p>
+                </div>
               </div>
-              <div className='riesgo__op--title'>
-                <p>Riesgos Asegurables</p>
-              </div>
-            </div>
+            </NavLink>
             <div className='riesgo__op'>
               <div className='riesgo__op--icon'>
                 <img src={IconBars} alt='' />
@@ -64,8 +67,11 @@ function Riesgos() {
             <img src={ImgRiesgos} alt='' />
           </div>
           <Switch>
-            <Route path='/RiesgosPA' exact>
+            <Route exact path='/RiesgosPA' >
               <RiesgosPA />
+            </Route>
+            <Route exact path='/RiesgosA'>
+              <RiesgosA />
             </Route>
           </Switch>
 
