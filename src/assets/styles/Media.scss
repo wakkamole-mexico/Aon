@@ -1,0 +1,102 @@
+@media screen and (max-width: 540px){
+    .main-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: calc(calc(var(--vh,1vh)* 100 ) - 60px) 60px;
+        grid-template-areas:
+            "hero"
+            "navbar";
+    }
+
+    .nav{
+        position: inherit;
+        display: block;
+        align-self: inherit;
+        padding: 5px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .nav ul{
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+        padding: 0px 0px 0px 0px;
+        height: auto;
+        gap: 0px;
+    } 
+
+    .header p{
+        line-height: 10px;
+        font-size: calc(.1em + 1vw);
+    }
+
+    .bot__img img{
+        width: 35px;
+    }
+
+    .indutry__number p{
+        font-size: 25px;
+    }
+
+    .industry__icon img{
+        width: 50px;
+        padding: 5%;
+    }
+
+    .industry__title{
+        font-size: calc(.1em + 1vw);
+    }
+
+    .riesgos__container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 45px auto auto .5fr auto auto;
+        grid-template-areas:
+            "header header header header"
+            "menu menu bot bot"
+            "menu menu bot bot"
+            "imagen title title title"
+            "imagen bullets bullets bullets"
+            "imagen bullets bullets bullets";
+    }
+
+    .riesgos__header{
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .icon__riegos{
+        text-align: start;
+        padding: 0;
+        padding:0 10px
+    }
+    .riesgos__header--title p {
+        writing-mode: horizontal-tb;
+    }
+    
+    .servicios__container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 45px auto auto .5fr auto auto;
+        grid-template-areas:
+            "header header header header"
+            "menu menu menu menu"
+            "menu menu menu menu"
+            "imagen title title title"
+            "imagen bullets bullets bullets"
+            "imagen bullets bullets bullets";
+    }
+    .servicios__header{
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .icon__servicios{
+        text-align: start;
+        padding: 0;
+        padding:0 10px
+    }
+
+    .servicios__header--title{
+        writing-mode: horizontal-tb;
+    }
+}

@@ -1,0 +1,8 @@
+.hero{
+    overflow: scroll;
+    /* background-color: brown; */
+    grid-area: hero;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 1fr;
+}
