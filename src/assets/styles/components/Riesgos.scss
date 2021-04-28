@@ -1,0 +1,112 @@
+.riesgos{
+    height: auto;
+    /* background-color: blue; */
+}
+
+.riesgos__container{
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px -2px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin: 20px 20px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto .5fr auto auto;
+    grid-template-areas:
+        "header menu menu bot bot"
+        "header menu menu bot bot"
+        "header imagen title title title"
+        "header imagen bullets bullets bullets"
+        "header imagen bullets bullets bullets";
+}
+
+.icon__riegos{
+    padding: 20% 0;
+    text-align: center;
+}
+
+.riesgos__header{
+    grid-area: header;
+    background-color: crimson;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.riesgos__header--title p{
+    writing-mode: tb-rl;
+    color: white;
+}
+
+.riesgos__menu{
+    grid-area: menu;
+}
+
+.riesgo__op{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.riesgo__op--icon{
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.riesgo__op--icon img{
+    width: 36px;
+}
+
+.riesgo__op--title{
+    font-size: calc(.3em + 1vw);
+    margin-left: 10px;
+}
+
+.riesgo__op--title p{
+    color: #747474;
+}
+
+.riesgos__img{
+    grid-area: imagen;
+    display: flex;
+    align-items: center;
+}
+
+.riesgos__img img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.riesgos__title{
+    grid-area: title;
+}
+
+.riesgos__title h1{
+    font-size: calc(2em + 1vw);
+    margin: 0;
+}
+.riesgos__title h2{
+    font-size: calc(1em + 1vw);
+    margin: 0;
+    color: #682381;
+}
+
+.riesgos__bullets{
+    grid-area: bullets;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.riesgos__bullets h3{
+    font-size:calc(.5em + 1vw);
+}
+
+.riesgos__bullets p{
+    font-size: calc(.3em + 1vw);
+}
+
+.servicios__title{
+    grid-area: title;
+}
