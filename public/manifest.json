@@ -1,0 +1,15 @@
+{
+    "short_name": "Aon",
+    "name": "Aon Empower Results",
+    "icons": [
+      {
+        "src": "/iconapp.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#222",
+    "theme_color": "#222",
+    "display": "standalone"
+  }
