@@ -15,6 +15,7 @@ import ImgRiesgos from '../assets/static/enegia-imagen-riesgos.png';
 import '../assets/styles/components/Riesgos.scss';
 import RiesgosPA from './RiesgosPA';
 import RiesgosA from './RiesgosA';
+import RiesgosNA from './RiesgosNA';
 
 function Riesgos() {
   return (
@@ -30,17 +31,17 @@ function Riesgos() {
             </div>
           </div>
           <div className='riesgos__menu'>
-            <NavLink to='/RiesgosPA'>
-              <div className='riesgo__op'>
-                <div className='riesgo__op--icon'>
-                  <img src={EcoIcon} alt='' />
-                </div>
-                <div className='riesgo__op--title'>
-                  <p>Riesgos Parcialmente Asegurables</p>
-                </div>
+            <NavLink to='/RiesgosPA' className='riesgo__op' activeClassName='active'>
+              {/* <div className='riesgo__op'> */}
+              <div className='riesgo__op--icon'>
+                <img src={EcoIcon} alt='' />
               </div>
+              <div className='riesgo__op--title'>
+                <p>Riesgos Parcialmente Asegurables</p>
+              </div>
+              {/* </div> */}
             </NavLink>
-            <NavLink to='/RiesgosA'>
+            <NavLink to='/RiesgosA' activeClassName='active'>
               <div className='riesgo__op'>
                 <div className='riesgo__op--icon'>
                   <img src={IconCash} alt='' />
@@ -50,14 +51,16 @@ function Riesgos() {
                 </div>
               </div>
             </NavLink>
-            <div className='riesgo__op'>
-              <div className='riesgo__op--icon'>
-                <img src={IconBars} alt='' />
+            <NavLink to='/RiesgosNA'>
+              <div className='riesgo__op'>
+                <div className='riesgo__op--icon'>
+                  <img src={IconBars} alt='' />
+                </div>
+                <div className='riesgo__op--title'>
+                  <p>Riesgos No Asegurables</p>
+                </div>
               </div>
-              <div className='riesgo__op--title'>
-                <p>Riesgos No Asegurables</p>
-              </div>
-            </div>
+            </NavLink>
           </div>
           <div className='riesgos__bot'>
             <p />
@@ -67,11 +70,14 @@ function Riesgos() {
             <img src={ImgRiesgos} alt='' />
           </div>
           <Switch>
-            <Route exact path='/RiesgosPA' >
+            <Route exact path='/RiesgosPA'>
               <RiesgosPA />
             </Route>
             <Route exact path='/RiesgosA'>
               <RiesgosA />
+            </Route>
+            <Route exact path='/RiesgosNA'>
+              <RiesgosNA />
             </Route>
           </Switch>
 

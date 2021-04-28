@@ -1,0 +1,30 @@
+.riesgo__item{
+    grid-area: item;
+}
+// .riesgos__title{
+//     grid-area: title;
+// }
+
+.riesgos__title h1{
+    font-size: calc(2em + 1vw);
+    margin: 0;
+}
+.riesgos__title h2{
+    font-size: calc(1em + 1vw);
+    margin: 0;
+    color: #682381;
+}
+
+.riesgos__bullets{
+    // grid-area: bullets;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.riesgos__bullets h3{
+    font-size:calc(.5em + 1vw);
+}
+
+.riesgos__bullets p{
+    font-size: calc(.3em + 1vw);
+}
