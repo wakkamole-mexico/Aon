@@ -4,6 +4,7 @@ import Bot from './Bot';
 import Home from './Home';
 import Menu from './Menu';
 import Riesgos from './Riesgos';
+import Servicios from './Servicios';
 
 const Hero = () => (
   <div className='hero'>
@@ -11,6 +12,7 @@ const Hero = () => (
     <Bot />
     <Menu />
     <Riesgos />
+    <Servicios />
   </div>
 );
 
