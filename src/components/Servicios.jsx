@@ -1,12 +1,19 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink,
+} from 'react-router-dom';
 import '../assets/styles/components/Servicios.scss';
 import EnergiaIconWhite from '../assets/static/energia-white.svg';
-import CadenaIcon from '../assets/static/cadena.svg'
-import ServiciosIcon from '../assets/static/servicios.svg'
-import IdeasIcon from '../assets/static/idea.svg'
-import GestionIcon from '../assets/static/gestion.svg'
-import CasosIcon from '../assets/static/casos.svg'
-import ImgRiesgos from '../assets/static/enegia-imagen-riesgos.png';
+import CadenaIcon from '../assets/static/cadena.svg';
+import ServiciosIcon from '../assets/static/servicios.svg';
+import IdeasIcon from '../assets/static/idea.svg';
+import GestionIcon from '../assets/static/gestion.svg';
+import CasosIcon from '../assets/static/casos.svg';
+import ImgRiesgosPA from '../assets/static/RiesgosPAImg.png';
 
 const Servicios = () => (
   <div className='servicios u-wrapper'>
@@ -62,7 +69,7 @@ const Servicios = () => (
         </div>
       </div>
       <div className='servicios__imagen'>
-        <img src={ImgRiesgos} alt='' />
+        <img src={ImgRiesgosPA} alt='' />
       </div>
       <div className='servicios__title'>
         <h1>Cadena de valor</h1>

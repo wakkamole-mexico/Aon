@@ -11,7 +11,9 @@ import EnergiaIconWhite from '../assets/static/energia-white.svg';
 import EcoIcon from '../assets/static/eco.svg';
 import IconCash from '../assets/static/cash.svg';
 import IconBars from '../assets/static/bars.svg';
-import ImgRiesgos from '../assets/static/enegia-imagen-riesgos.png';
+import ImgRiesgosPA from '../assets/static/RiesgosPAImg.png';
+import ImgRiesgoA from '../assets/static/RiesgosAImg.png';
+import ImgRiesgoNA from '../assets/static/RiesgosNAImg.png';
 import '../assets/styles/components/Riesgos.scss';
 import RiesgosPA from './RiesgosPA';
 import RiesgosA from './RiesgosA';
@@ -32,33 +34,27 @@ function Riesgos() {
           </div>
           <div className='riesgos__menu'>
             <NavLink to='/RiesgosPA' className='riesgo__op' activeClassName='active'>
-              {/* <div className='riesgo__op'> */}
               <div className='riesgo__op--icon'>
                 <img src={EcoIcon} alt='' />
               </div>
               <div className='riesgo__op--title'>
                 <p>Riesgos Parcialmente Asegurables</p>
               </div>
-              {/* </div> */}
             </NavLink>
-            <NavLink to='/RiesgosA' activeClassName='active'>
-              <div className='riesgo__op'>
-                <div className='riesgo__op--icon'>
-                  <img src={IconCash} alt='' />
-                </div>
-                <div className='riesgo__op--title'>
-                  <p>Riesgos Asegurables</p>
-                </div>
+            <NavLink to='/RiesgosA' className='riesgo__op' activeClassName='active'>
+              <div className='riesgo__op--icon'>
+                <img src={IconCash} alt='' />
+              </div>
+              <div className='riesgo__op--title'>
+                <p>Riesgos Asegurables</p>
               </div>
             </NavLink>
-            <NavLink to='/RiesgosNA'>
-              <div className='riesgo__op'>
-                <div className='riesgo__op--icon'>
-                  <img src={IconBars} alt='' />
-                </div>
-                <div className='riesgo__op--title'>
-                  <p>Riesgos No Asegurables</p>
-                </div>
+            <NavLink to='/RiesgosNA' className='riesgo__op' activeClassName='active'>
+              <div className='riesgo__op--icon'>
+                <img src={IconBars} alt='' />
+              </div>
+              <div className='riesgo__op--title'>
+                <p>Riesgos No Asegurables</p>
               </div>
             </NavLink>
           </div>
@@ -66,47 +62,27 @@ function Riesgos() {
             <p />
             <img src='' alt='' />
           </div>
-          <div className='riesgos__img'>
-            <img src={ImgRiesgos} alt='' />
-          </div>
+
           <Switch>
             <Route exact path='/RiesgosPA'>
               <RiesgosPA />
+              <div className='riesgos__img'>
+                <img src={ImgRiesgosPA} alt='' />
+              </div>
             </Route>
             <Route exact path='/RiesgosA'>
               <RiesgosA />
+              <div className='riesgos__img'>
+                <img src={ImgRiesgoA} alt='' />
+              </div>
             </Route>
             <Route exact path='/RiesgosNA'>
               <RiesgosNA />
+              <div className='riesgos__img'>
+                <img src={ImgRiesgoNA} alt='' />
+              </div>
             </Route>
           </Switch>
-
-          {/* <div className='riesgos__title'>
-        <h1>Riesgos</h1>
-        <h2>Parcialmente Asegurables</h2>
-      </div>
-      <div className='riesgos__bullets'>
-        <h3>Riesgo político / incertidumbre</h3>
-        <p>
-          Las organizaciones requieren de una sólida posición de liquidez, ya que el negocio suele requerir de
-          mucho tiempo y recursos, independientemente de la madurez de la organización.
-        </p>
-        <h3>Riesgo político / incertidumbre</h3>
-        <p>
-          Las organizaciones requieren de una sólida posición de liquidez, ya que el negocio suele requerir de
-          mucho tiempo y recursos, independientemente de la madurez de la organización.
-        </p>
-        <h3>Riesgo político / incertidumbre</h3>
-        <p>
-          Las organizaciones requieren de una sólida posición de liquidez, ya que el negocio suele requerir de
-          mucho tiempo y recursos, independientemente de la madurez de la organización.
-        </p>
-        <h3>Riesgo político / incertidumbre</h3>
-        <p>
-          Las organizaciones requieren de una sólida posición de liquidez, ya que el negocio suele requerir de
-          mucho tiempo y recursos, independientemente de la madurez de la organización.
-        </p>
-      </div> */}
         </div>
       </div>
     </Router>

@@ -48,14 +48,14 @@
 
     .riesgos__container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 45px auto auto .5fr auto auto;
+        grid-template-rows: 45px auto auto auto auto auto;
         grid-template-areas:
             "header header header header"
             "menu menu bot bot"
             "menu menu bot bot"
-            "imagen title title title"
-            "imagen bullets bullets bullets"
-            "imagen bullets bullets bullets";
+            "imagen item item item"
+            "imagen item item item"
+            "imagen item item item";
     }
 
     .riesgos__header{
