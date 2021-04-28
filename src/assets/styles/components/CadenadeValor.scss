@@ -1,0 +1,38 @@
+.serviciosItem{
+    grid-area: item;
+}
+
+
+// .servicios__title{
+//     grid-area: title;
+// }
+
+.servicios__title h1{
+    font-size: calc(1em + 1vw);
+    margin-bottom: 0;
+}
+
+.servicios__title h2{
+    font-size: calc(.5em + 1vw);
+    margin: 0;
+}
+
+.servicios__bullets{
+    grid-area: bullets;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bullets__container{
+    padding: 5px;
+}
+
+.servicios__bullets h3{
+    font-size: calc(.5em + 1vw);
+    margin: 0;
+}
+
+.servicios__bullets p{
+    font-size: calc(.3em + .5vw);
+}
