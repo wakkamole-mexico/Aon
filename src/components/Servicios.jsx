@@ -20,7 +20,6 @@ import ImgServicions from '../assets/static/serviciosaonimg.png';
 import ImgGestion from '../assets/static/gestionimg.png';
 import ImgCasos from '../assets/static/casosimg.png';
 
-
 import CadenadeValor from './CadenadeValor';
 import ServiciosAon from './ServiciosAon';
 import Soluciones from './Soluciones';

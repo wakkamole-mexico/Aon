@@ -4,6 +4,7 @@ import energia from '../assets/static/energia.svg';
 import food from '../assets/static/food.svg';
 import farm from '../assets/static/farm.svg';
 import tools from '../assets/static/tools.svg';
+import air from '../assets/static/air.svg';
 import home from '../assets/static/home.svg';
 
 const Nav = () => (
@@ -22,7 +23,7 @@ const Nav = () => (
         <a href=''><img src={tools} alt='' /></a>
       </li>
       <li>
-        <a href=''><img src={energia} alt='' /></a>
+        <a href=''><img src={air} alt='' /></a>
       </li>
       <li>
         <a href=''><img src={home} alt='' /></a>
