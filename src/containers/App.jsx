@@ -1,10 +1,10 @@
 import React from 'react';
-import Menu from '../components/Menu';
-import '../assets/styles/App.scss'
+import MainSection from '../components/MainSection';
+import '../assets/styles/App.scss';
 
 const App = () => (
   <div className='App'>
-    <Menu />
+    <MainSection />
   </div>
 );
 
