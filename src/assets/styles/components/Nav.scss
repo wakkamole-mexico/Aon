@@ -14,10 +14,10 @@
 
 .nav ul{
     margin: 0px;
-    height: 462px;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 8fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     padding: 6px 0px;
     gap: 10px;

@@ -8,6 +8,7 @@
     }
 
     .nav{
+        background-color: #f3f8fb;
         position: inherit;
         display: block;
         align-self: inherit;
@@ -17,7 +18,7 @@
     }
 
     .nav ul{
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 1fr;
         padding: 0px 0px 0px 0px;
         height: auto;
@@ -67,7 +68,7 @@
     .riesgos__header{
         display: flex;
         align-items: center;
-        border-radius: 10px;
+        border-radius: 10px 10px 0px 0px;
     }
 
     .icon__riegos{
@@ -93,7 +94,7 @@
     .servicios__header{
         display: flex;
         align-items: center;
-        border-radius: 10px;
+        border-radius: 10px 10px 0px 0px;
     }
 
     .icon__servicios{

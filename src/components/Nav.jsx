@@ -25,9 +25,9 @@ const Nav = () => (
       <li>
         <a href=''><img src={air} alt='' /></a>
       </li>
-      <li>
+      {/* <li>
         <a href=''><img src={home} alt='' /></a>
-      </li>
+      </li> */}
     </ul>
   </nav>
 );
