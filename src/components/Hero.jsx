@@ -9,7 +9,6 @@ import Servicios from './Servicios';
 const Hero = () => (
   <div className='hero'>
     <Home />
-    <Bot />
     <Menu />
     <Riesgos />
     <Servicios />
