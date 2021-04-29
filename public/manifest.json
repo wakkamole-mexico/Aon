@@ -3,13 +3,13 @@
     "name": "Aon Empower Results",
     "icons": [
       {
-        "src": "/iconapp.png",
-        "sizes": "180x180",
+        "src": "https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/Aon%2Ficon.png?alt=media&token=71b2ebc4-8504-4dce-b2e5-585e87fd1e89",
+        "sizes": "512x512",
         "type": "image/png"
       }
     ],
     "start_url": "/",
-    "background_color": "#222",
-    "theme_color": "#222",
+    "background_color": "#F3F8FB",
+    "theme_color": "#ED1112",
     "display": "standalone"
   }
