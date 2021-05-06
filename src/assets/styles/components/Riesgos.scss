@@ -58,6 +58,7 @@
     align-items: center;
     margin: 20px;
     text-decoration: none;
+    width: fit-content;
 }
 
 .riesgo__op--icon{
@@ -72,7 +73,7 @@
 
 .riesgo__op--title{
     font-size: calc(.3em + 1vw);
-    margin-left: 10px;
+    margin: 0px 10px;
 }
 
 .riesgo__op--title p{
