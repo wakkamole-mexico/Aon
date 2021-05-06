@@ -58,10 +58,10 @@ function Riesgos() {
               </div>
             </NavLink>
           </div>
-          <div className='riesgos__bot'>
+          {/* <div className='riesgos__bot'>
             <p />
             <img src='' alt='' />
-          </div>
+          </div> */}
 
           <Switch>
             <Route exact path='/RiesgosPA'>

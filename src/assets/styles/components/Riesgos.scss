@@ -24,11 +24,12 @@
     grid-template-columns: 50px 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
-        "header menu menu bot bot"
-        "header menu menu bot bot"
+        "header menu menu menu menu"
+        "header menu menu menu menu"
         "header imagen item item item"
         "header imagen item item item"
         "header imagen item item item";
+        
 }
 
 .icon__riegos{
