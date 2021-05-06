@@ -11,7 +11,8 @@ const Home = () => (
       </div>
     </div>
     <div className='header'>
-      <img src={HeaderImage} alt='' />
+      <div className='header__imagen'>
+      </div>
       <p>Cuidamos el valor de tu empresa. En Aon, tenemos el conocimiento, la experiencia y el compromiso para poder ofrecer a nuestros clientes un servicio con valor agregado acompañado de un enfoque de especialistas en el tema. Ofrecemos soluciones innovadoras en el mercado. Conoce más.</p>
     </div>
   </div>

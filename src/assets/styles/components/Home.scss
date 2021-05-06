@@ -30,13 +30,21 @@
     border-radius: 10px;
 }
 
+.header__imagen{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/Aon%2Fheader.png?alt=media&token=c24824c3-dc9a-46e0-927b-327e9aa7dab6');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
 .header p{
     font-size: calc(.3em + 1vw);
     color: white;
     padding: 0px 5%;
     display: flex;
     align-items: center;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 /* fin header */
