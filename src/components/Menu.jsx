@@ -13,7 +13,7 @@ const Menu = () => (
         <div className='industry__icon'>
           <img src={energiaOp} alt='' />
         </div>
-        <div className='industry__title'>
+        <div className='industry__title title__focus'>
           <p>Energía</p>
         </div>
       </div>
