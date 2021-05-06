@@ -65,6 +65,10 @@
             "imagen item item item";
     }
 
+    .riesgo__op--title{
+        font-size: calc(.3em + 2vw);
+    }
+
     .riesgos__header{
         display: flex;
         align-items: center;
