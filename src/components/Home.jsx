@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/styles/components/Home.scss';
 import logoAon from '../assets/static/logo-Aon.png';
 import HeaderImage from '../assets/static/image-home.png';
+import {Link} from 'react-scroll';
 
 const Home = () => (
   <div className='home u-wrapper'>
@@ -21,7 +22,7 @@ const Home = () => (
         </div>
       </div>
       <div className="cta__container">
-        <a className="item--cta" href="">Empezar</a>
+        <Link className="item--cta" to='menu' smooth={true} duration={1000}>Empezar</Link>
       </div>
     </div>
   </div>

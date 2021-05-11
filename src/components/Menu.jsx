@@ -7,7 +7,7 @@ import airOp from '../assets/static/airop.svg';
 import '../assets/styles/components/Menu.scss';
 
 const Menu = () => (
-  <div className='menu u-wrapper'>
+  <div className='menu u-wrapper' id='menu'>
     <div className='menu__container'>
       <div className='indutry #1'>
         <div className='industry__icon'>
