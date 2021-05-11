@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/CadenadeValor.scss';
+import '../assets/styles/components/flexColumn.scss';
 
 const ServiciosAon = () => {
   return (
@@ -8,7 +9,7 @@ const ServiciosAon = () => {
         <h1>Servicios</h1>
         <h2>Aon</h2>
       </div>
-      <div className='servicios__bullets'>
+      <div className='servicios__bullets column'>
         <div className='bullets__container'>
           <h3>1. Daños</h3>
           <p>
