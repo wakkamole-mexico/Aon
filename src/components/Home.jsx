@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/components/Home.scss';
 import logoAon from '../assets/static/logo-Aon.png';
 import HeaderImage from '../assets/static/image-home.png';
-import {Link} from 'react-scroll';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home = () => (
   <div className='home u-wrapper'>
