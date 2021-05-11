@@ -30,6 +30,14 @@
         height: 45px;
     }
 
+    .header{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+    .header__image img {
+        width: 80%;
+    }
+
     .header p{
         line-height: 10px;
         font-size: calc(.2em + 1.3vw);
