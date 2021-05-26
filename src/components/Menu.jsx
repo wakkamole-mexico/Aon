@@ -12,21 +12,23 @@ import farmOp from '../assets/static/farmop.svg';
 import toolsOp from '../assets/static/toolsop.svg';
 import airOp from '../assets/static/airop.svg';
 import '../assets/styles/components/Menu.scss';
+import Energia from './Energia';
+import Alimentos from './Alimentos';
 
 function Menu() {
   return (
-
+    <Router>
       <div className='menu u-wrapper' id='menu'>
         <div className='menu__container'>
-          <div className='indutry #1'>
+          <NavLink to='/Energia' className='indutry #1'>
             <div className='industry__icon'>
               <img src={energiaOp} alt='' />
             </div>
             <div className='industry__title title__focus'>
               <p>Energía</p>
             </div>
-          </div>
-          <div className='indutry #2'>
+          </NavLink>
+          <NavLink to='/Alimentos' className='indutry #2'>
             <div className='industry__icon'>
               <img src={foodOp} alt='' />
             </div>
@@ -36,7 +38,7 @@ function Menu() {
                 bebidas
               </p>
             </div>
-          </div>
+          </NavLink>
           <div className='indutry #3'>
             <div className='industry__icon'>
               <img src={farmOp} alt='' />
@@ -69,6 +71,17 @@ function Menu() {
           </div>
         </div>
       </div>
+
+      <Switch>
+        <Route exact path='/Energia'>
+          <Energia />
+        </Route>
+        <Route exact path='/Alimentos'>
+          <Alimentos />
+        </Route>
+      </Switch>
+
+    </Router>
 
   );
 };
