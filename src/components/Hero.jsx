@@ -5,13 +5,13 @@ import Home from './Home';
 import Menu from './Menu';
 import Riesgos from './Riesgos';
 import Servicios from './Servicios';
+import Energia from './Energia';
 
 const Hero = () => (
   <div className='hero'>
     <Home />
     <Menu />
-    <Riesgos />
-    <Servicios />
+    <Energia />
   </div>
 );
 
