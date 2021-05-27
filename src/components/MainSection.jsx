@@ -17,6 +17,7 @@ import food from '../assets/static/food.svg';
 import farm from '../assets/static/farm.svg';
 import tools from '../assets/static/tools.svg';
 import air from '../assets/static/air.svg';
+import construccion from '../assets/static/cons-icon.svg';
 import Bot from './Bot';
 import Home from './Home';
 import Menu from './Menu';
@@ -25,6 +26,8 @@ import Alimentos from './Alimentos';
 import Farmaceutica from './Farmaceutica';
 import Manufactura from './Manufactura';
 import Transporte from './Transporte';
+import Construccion from './Construccion';
+
 
 function MainSection() {
   return (
@@ -81,11 +84,21 @@ function MainSection() {
                   <img src={air} alt='' />
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to='/Construccion'
+                  className='navbar--item red'
+                  activeClassName='opacity'
+                >
+                  <img src={construccion} alt='' />
+                </NavLink>
+              </li>
               <p>Energía</p>
               <p>Alimentos</p>
               <p>Farmacéutica</p>
               <p>Manufactura</p>
               <p>Transporte</p>
+              <p>Construcción</p>
               {/* <li>
         <a href=''><img src={home} alt='' /></a>
       </li> */}
@@ -110,6 +123,9 @@ function MainSection() {
             </Route>
             <Route exact path='/Transporte'>
               <Transporte />
+            </Route>
+            <Route exact path='/Construccion'>
+              <Construccion />
             </Route>
             <Route exact path='/'>
               <Energia />
