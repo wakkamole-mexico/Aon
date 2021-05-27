@@ -8,6 +8,7 @@ import Energia from './Energia';
 const Hero = () => (
   <div className='hero'>
     <Home />
+    <Bot />
     <Menu />
 
   </div>
