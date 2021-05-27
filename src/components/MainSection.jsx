@@ -22,6 +22,7 @@ import Home from './Home';
 import Menu from './Menu';
 import Energia from './Energia';
 import Alimentos from './Alimentos';
+import Farmaceutica from './Farmaceutica';
 
 function MainSection() {
   return (
@@ -51,7 +52,13 @@ function MainSection() {
                 </NavLink>
               </li>
               <li>
-                <a href=''><img src={farm} alt='' /></a>
+                <NavLink
+                  to='/Farmaceutica'
+                  className='navbar--item green'
+                  activeClassName='opacity'
+                >
+                  <img src={farm} alt='' />
+                </NavLink>
               </li>
               <li>
                 <a href=''><img src={tools} alt='' /></a>
@@ -74,6 +81,9 @@ function MainSection() {
             </Route>
             <Route exact path='/Alimentos'>
               <Alimentos />
+            </Route>
+            <Route exact path='/Farmaceutica'>
+              <Farmaceutica />
             </Route>
             <Route exact path='/'>
               <Energia />
