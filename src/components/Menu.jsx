@@ -20,7 +20,13 @@ function Menu() {
     <Router>
       <div className='menu u-wrapper' id='menu'>
         <div className='menu__container'>
-          <NavLink to='/Energia' className='indutry #1'>
+          <NavLink
+            to='/Energia'
+            className='indutry #1'
+            activeStyle={{
+              opacity: 1,
+            }}
+          >
             <div className='industry__icon'>
               <img src={energiaOp} alt='' />
             </div>
@@ -28,7 +34,13 @@ function Menu() {
               <p>Energía</p>
             </div>
           </NavLink>
-          <NavLink to='/Alimentos' className='indutry #2'>
+          <NavLink
+            to='/Alimentos'
+            className='indutry #2'
+            activeStyle={{
+              opacity: 1,
+            }}
+          >
             <div className='industry__icon'>
               <img src={foodOp} alt='' />
             </div>
