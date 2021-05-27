@@ -43,6 +43,7 @@ function MainSection() {
                   <img src={energia} alt='' />
                 </NavLink>
               </li>
+              
 
               <li>
                 <NavLink
@@ -80,6 +81,11 @@ function MainSection() {
                   <img src={air} alt='' />
                 </NavLink>
               </li>
+              <p>Energía</p>
+              <p>Alimentos</p>
+              <p>Farmacéutica</p>
+              <p>Manufactura</p>
+              <p>Transporte</p>
               {/* <li>
         <a href=''><img src={home} alt='' /></a>
       </li> */}

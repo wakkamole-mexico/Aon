@@ -1,7 +1,7 @@
 @media screen and (max-width: 540px){
     .main-section {
         grid-template-columns: 1fr;
-        grid-template-rows: calc(calc(var(--vh,1vh)* 100 ) - 60px) 60px;
+        grid-template-rows: calc(calc(var(--vh,1vh)* 100 ) - 80px) 80px;
         grid-template-areas:
             "hero"
             "navbar";
@@ -19,7 +19,7 @@
 
     .nav ul{
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr auto;
         padding: 0px 0px 0px 0px;
         height: auto;
         gap: 0px;
@@ -28,6 +28,11 @@
     .nav ul li{
         width: 45px;
         height: 45px;
+    }
+
+    .nav p{
+        font-size: 10px;
+        display: block;
     }
 
     .header{
