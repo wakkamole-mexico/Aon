@@ -72,7 +72,7 @@ function AlServicios() {
                 <p>Gestión integral para potenciar resultados</p>
               </div>
             </NavLink>
-           
+
           </div>
 
           <Switch>
@@ -100,7 +100,7 @@ function AlServicios() {
                 <img src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/Aon%2FCONSTRUCCION%2FGestio%CC%81n-integral.png?alt=media&token=e4b29107-949d-4921-ae41-df9f169e793a' alt='' />
               </div>
             </Route>
-            
+
           </Switch>
         </div>
       </div>
