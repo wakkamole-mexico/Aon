@@ -1,11 +1,12 @@
 import React from 'react';
 import AlRiesgos from './AlRiesgos';
-import Servicios from './Servicios';
+import AlServicios from './AlServicios';
 
 const Alimentos = () => {
   return (
     <div>
-      <AlRiesgos /> 
+      <AlRiesgos />
+      <AlServicios />
     </div>
   );
 };

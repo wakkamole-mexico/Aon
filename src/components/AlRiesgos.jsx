@@ -11,13 +11,10 @@ import AlimentosIconWhite from '../assets/static/alimentos-white.svg';
 import EcoIcon from '../assets/static/eco.svg';
 import IconCash from '../assets/static/cash.svg';
 import IconBars from '../assets/static/bars.svg';
-import ImgRiesgosPA from '../assets/static/RiesgosPAImg.png';
-import ImgRiesgoA from '../assets/static/RiesgosAImg.png';
-import ImgRiesgoNA from '../assets/static/RiesgosNAImg.png';
 import '../assets/styles/components/Riesgos.scss';
 import AlRiesgosPA from './AlRiesgosPA';
 import AlRiesgosA from './AlRiesgosA';
-import AlRiesgosNA from './AlRiesgosNA';
+import AlRiesgosNA from './AlRiesgosNa';
 
 function AlRiesgos() {
   return (
