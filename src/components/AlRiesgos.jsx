@@ -16,8 +16,8 @@ import ImgRiesgoA from '../assets/static/RiesgosAImg.png';
 import ImgRiesgoNA from '../assets/static/RiesgosNAImg.png';
 import '../assets/styles/components/Riesgos.scss';
 import AlRiesgosPA from './AlRiesgosPA';
-import RiesgosA from './RiesgosA';
-import RiesgosNA from './RiesgosNA';
+import AlRiesgosA from './AlRiesgosA';
+import AlRiesgosNA from './AlRiesgosNA';
 
 function AlRiesgos() {
   return (
@@ -41,7 +41,7 @@ function AlRiesgos() {
                 <p>Riesgos Parcialmente Asegurables</p>
               </div>
             </NavLink>
-            <NavLink to='/RiesgosA' className='riesgo__op' activeClassName='active'>
+            <NavLink to='/AlRiesgosA' className='riesgo__op' activeClassName='active'>
               <div className='riesgo__op--icon'>
                 <img src={IconCash} alt='' />
               </div>
@@ -49,7 +49,7 @@ function AlRiesgos() {
                 <p>Riesgos Asegurables</p>
               </div>
             </NavLink>
-            <NavLink to='/RiesgosNA' className='riesgo__op' activeClassName='active'>
+            <NavLink to='/AlRiesgosNA' className='riesgo__op' activeClassName='active'>
               <div className='riesgo__op--icon'>
                 <img src={IconBars} alt='' />
               </div>
@@ -70,16 +70,16 @@ function AlRiesgos() {
                 <img src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/Aon%2Falimentos%2Frp%20(1).png?alt=media&token=bbe82ece-db8b-4b4a-be75-3de0eb297ff1' alt='' />
               </div>
             </Route>
-            <Route exact path='/RiesgosA'>
-              <RiesgosA />
+            <Route exact path='/AlRiesgosA'>
+              <AlRiesgosA />
               <div className='riesgos__img'>
-                <img src={ImgRiesgoA} alt='' />
+                <img src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/Aon%2Falimentos%2Ffarm2%20(1).png?alt=media&token=d082f19d-781c-4784-b0c9-fba426e2826a' alt='' />
               </div>
             </Route>
-            <Route exact path='/RiesgosNA'>
-              <RiesgosNA />
+            <Route exact path='/AlRiesgosNA'>
+              <AlRiesgosNA />
               <div className='riesgos__img'>
-                <img src={ImgRiesgoNA} alt='' />
+                <img src='https://firebasestorage.googleapis.com/v0/b/wakkamole-61f7d.appspot.com/o/Aon%2Falimentos%2Frna.png?alt=media&token=e2c87af7-ea5a-4b23-8bf3-b862fe6ef8e7' alt='' />
               </div>
             </Route>
           </Switch>
