@@ -31,7 +31,7 @@ function Servicios() {
     <Router>
       <div className='servicios u-wrapper'>
         <div className='servicios__container'>
-          <div className='servicios__header'>
+          <div className='servicios__header back-red'>
             <div className='icon__servicios'>
               <img src={EnergiaIconWhite} alt='' />
             </div>

@@ -1,11 +1,11 @@
 import React from 'react';
-import Riesgos from './Riesgos';
+import AlRiesgos from './AlRiesgos';
 import Servicios from './Servicios';
 
 const Alimentos = () => {
   return (
     <div>
-      <Riesgos /> 
+      <AlRiesgos /> 
     </div>
   );
 };

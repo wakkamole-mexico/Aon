@@ -37,9 +37,15 @@
     text-align: center;
 }
 
+.back-red{
+    background-color: #ED1112;
+}
+.back-yellow{
+    background-color: #FFBA00;
+}
+
 .riesgos__header{
     grid-area: header;
-    background-color: #ED1112 ;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
