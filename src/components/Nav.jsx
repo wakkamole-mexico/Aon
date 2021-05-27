@@ -13,6 +13,9 @@ import farm from '../assets/static/farm.svg';
 import tools from '../assets/static/tools.svg';
 import air from '../assets/static/air.svg';
 import home from '../assets/static/home.svg';
+import Energia from './Energia';
+import Alimentos from './Alimentos';
+
 
 function Nav() {
   return (
