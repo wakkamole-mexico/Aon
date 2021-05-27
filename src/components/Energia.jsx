@@ -4,7 +4,7 @@ import Servicios from './Servicios';
 
 const Energia = () => {
   return (
-    <div>
+    <div id='main'>
       <Riesgos />
       <Servicios />
     </div>

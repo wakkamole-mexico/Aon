@@ -22,7 +22,7 @@ const Home = () => (
         </div>
       </div>
       <div className="cta__container">
-        <Link className="item--cta" to='bot' smooth={true} duration={1000}>Empezar</Link>
+        <Link className="item--cta" to='main' smooth={true} duration={1000}>Empezar</Link>
       </div>
     </div>
   </div>

@@ -24,6 +24,7 @@ import Energia from './Energia';
 import Alimentos from './Alimentos';
 import Farmaceutica from './Farmaceutica';
 import Manufactura from './Manufactura';
+import Transporte from './Transporte';
 
 function MainSection() {
   return (
@@ -71,7 +72,13 @@ function MainSection() {
                 </NavLink>
               </li>
               <li>
-                <a href=''><img src={air} alt='' /></a>
+                <NavLink
+                  to='/Transporte'
+                  className='navbar--item blue'
+                  activeClassName='opacity'
+                >
+                  <img src={air} alt='' />
+                </NavLink>
               </li>
               {/* <li>
         <a href=''><img src={home} alt='' /></a>
@@ -81,7 +88,7 @@ function MainSection() {
         </div>
         <div className='hero'>
           <Home />
-          <Bot />
+          {/* <Bot /> */}
           <Switch>
             <Route exact path='/Energia'>
               <Energia />
@@ -94,6 +101,9 @@ function MainSection() {
             </Route>
             <Route exact path='/Manufactura'>
               <Manufactura />
+            </Route>
+            <Route exact path='/Transporte'>
+              <Transporte />
             </Route>
             <Route exact path='/'>
               <Energia />
