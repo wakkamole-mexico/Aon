@@ -11,7 +11,7 @@ const AlRiesgosA = () => {
       <div className='riesgos__bullets'>
         <h3>Interrupción de negocio</h3>
         <p>
-          RResponsabilidad como resultado de la emisión, descarga, liberación o escape de cualquier
+          Responsabilidad como resultado de la emisión, descarga, liberación o escape de cualquier
           contaminante, irritante o contaminante hacia o sobre la tierra, la atmósfera o cualquier
           curso o cause de agua.
         </p>
