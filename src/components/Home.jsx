@@ -1,8 +1,8 @@
 import React from 'react';
 import '../assets/styles/components/Home.scss';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import logoAon from '../assets/static/logo-Aon.png';
 import HeaderImage from '../assets/static/image-home.png';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home = () => (
   <div className='home u-wrapper'>
@@ -18,11 +18,11 @@ const Home = () => (
           <p>Cuidamos el valor de tu empresa. En Aon, tenemos el conocimiento, la experiencia y el compromiso para poder ofrecer a nuestros clientes un servicio con valor agregado acompañado de un enfoque de especialistas en el tema. Ofrecemos soluciones innovadoras en el mercado. Conoce más.</p>
         </div>
         <div className='header__image'>
-          <img src={HeaderImage} alt="" />
+          <img src={HeaderImage} alt='' />
         </div>
       </div>
-      <div className="cta__container">
-        <Link className="item--cta" to='main' smooth={true} duration={1000}>Empezar</Link>
+      <div className='cta__container'>
+        <Link className='item--cta' to='main' smooth={true} duration={1000}>Empezar</Link>
       </div>
     </div>
   </div>
