@@ -81,6 +81,17 @@ function Menu() {
               </p>
             </div>
           </div>
+          <div className='indutry #5'>
+            <div className='industry__icon'>
+              <img src={airOp} alt='' />
+            </div>
+            <div className='industry__title'>
+              <p>
+                Transporte y
+                logística
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

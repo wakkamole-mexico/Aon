@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import logoAon from '../assets/static/logo-Aon.png';
 import HeaderImage from '../assets/static/image-home.png';
 
-const Home = () => (
+const Welcome = () => (
   <div className='home u-wrapper'>
     <div className='home__container'>
       <div className='logo'>
@@ -28,4 +28,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Welcome;

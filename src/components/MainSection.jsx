@@ -19,7 +19,7 @@ import tools from '../assets/static/tools.svg';
 import air from '../assets/static/air.svg';
 import construccion from '../assets/static/cons-icon.svg';
 import Bot from './Bot';
-import Home from './Home';
+import Welcome from './Welcome';
 import Menu from './Menu';
 import Energia from './Energia';
 import Alimentos from './Alimentos';
@@ -106,7 +106,8 @@ function MainSection() {
           </nav>
         </div>
         <div className='hero'>
-          <Home />
+          <Welcome />
+          <Menu />
           {/* <Bot /> */}
           <Switch>
             <Route exact path='/Energia'>
