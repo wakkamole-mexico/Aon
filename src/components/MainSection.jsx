@@ -31,7 +31,6 @@ import Construccion from './Construccion';
 
 function MainSection() {
   return (
-    <Router>
       <div className='main-section'>
         <div className='navbar'>
           <nav className='nav'>
@@ -108,34 +107,9 @@ function MainSection() {
         <div className='hero'>
           <Welcome />
           <Menu />
-          {/* <Bot /> */}
-          <Switch>
-            <Route exact path='/Energia'>
-              <Energia />
-            </Route>
-            <Route exact path='/Alimentos'>
-              <Alimentos />
-            </Route>
-            <Route exact path='/Farmaceutica'>
-              <Farmaceutica />
-            </Route>
-            <Route exact path='/Manufactura'>
-              <Manufactura />
-            </Route>
-            <Route exact path='/Transporte'>
-              <Transporte />
-            </Route>
-            <Route exact path='/Construccion'>
-              <Construccion />
-            </Route>
-            <Route exact path='/'>
-              <Energia />
-            </Route>
-
-          </Switch>
+          
         </div>
       </div>
-    </Router>
   );
 }
 

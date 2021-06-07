@@ -4,9 +4,9 @@
 
 .menu__container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    gap: 2px;
+    gap: 5px;
     margin: 0px 20px;
     /* margin: 0px 20px; */
 }
@@ -48,21 +48,16 @@
 
 .indutry:nth-of-type(1){
     background-color: #ED1112;
-    opacity: 0.2;
 }
 .indutry:nth-of-type(2){
     background-color: #FFBA00;
-    opacity: 0.2;
 }
 .indutry:nth-of-type(3){
     background-color: #65CD46;
-    opacity: 0.2;
 }
 .indutry:nth-of-type(4){
     background-color: #7B0188;
-    opacity: 0.2;
 }
 .indutry:nth-of-type(5){
     background-color: #0050AC;
-    opacity: 0.2;
 }

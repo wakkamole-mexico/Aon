@@ -75,12 +75,12 @@
     }
 
     .industry__icon img{
-        width: 50px;
+        width: 65px;
         padding: 5%;
     }
 
     .industry__title{
-        font-size: calc(.2em + 1vw);
+        font-size: calc(0.5em + 1vw);
         font-weight: bold;
     }
 
@@ -147,8 +147,5 @@
     }
     .servicios__op--title {
         font-size: calc(.3em + 1.5vw);
-    }
-    .title__focus{
-        font-size: calc(0.5em + 1vw);
     }
 }

@@ -17,94 +17,77 @@ import Alimentos from './Alimentos';
 
 function Menu() {
   return (
-    <Router>
-      <div className='menu u-wrapper' id='menu'>
-        <div className='menu__container'>
-          <NavLink
-            to='/Energia'
-            className='indutry #1'
-            activeStyle={{
-              opacity: 1,
-            }}
-          >
-            <div className='industry__icon'>
-              <img src={energiaOp} alt='' />
-            </div>
-            <div className='industry__title title__focus'>
-              <p>Energía</p>
-            </div>
-          </NavLink>
-          <NavLink
-            to='/Alimentos'
-            className='indutry #2'
-            activeStyle={{
-              opacity: 1,
-            }}
-          >
-            <div className='industry__icon'>
-              <img src={foodOp} alt='' />
-            </div>
-            <div className='industry__title'>
-              <p>
-                Alimentos y
-                bebidas
-              </p>
-            </div>
-          </NavLink>
-          <div className='indutry #3'>
-            <div className='industry__icon'>
-              <img src={farmOp} alt='' />
-            </div>
-            <div className='industry__title'>
-              <p>
-                Farmacéutica y
-                química
-              </p>
-            </div>
+
+    <div className='menu u-wrapper' id='menu'>
+      <div className='menu__container'>
+        <Link
+          to='/energia'
+          className='indutry #1'
+        >
+          <div className='industry__icon'>
+            <img src={energiaOp} alt='' />
           </div>
-          <div className='indutry #4'>
-            <div className='industry__icon'>
-              <img src={toolsOp} alt='' />
-            </div>
-            <div className='industry__title'>
-              <p>Manufactura</p>
-            </div>
+          <div className='industry__title'>
+            <p>Energía</p>
           </div>
-          <div className='indutry #5'>
-            <div className='industry__icon'>
-              <img src={airOp} alt='' />
-            </div>
-            <div className='industry__title'>
-              <p>
-                Transporte y
-                logística
-              </p>
-            </div>
+        </Link>
+        <Link
+          to='/Alimentos'
+          className='indutry #2'
+        >
+          <div className='industry__icon'>
+            <img src={foodOp} alt='' />
           </div>
-          <div className='indutry #5'>
-            <div className='industry__icon'>
-              <img src={airOp} alt='' />
-            </div>
-            <div className='industry__title'>
-              <p>
-                Transporte y
-                logística
-              </p>
-            </div>
+          <div className='industry__title'>
+            <p>
+              Alimentos y
+              bebidas
+            </p>
           </div>
-        </div>
+        </Link>
+        <Link to='/Alimentos' className='indutry #3'>
+          <div className='industry__icon'>
+            <img src={farmOp} alt='' />
+          </div>
+          <div className='industry__title'>
+            <p>
+              Farmacéutica y
+              química
+            </p>
+          </div>
+        </Link>
+        <Link to='/Alimentos' className='indutry #4'>
+          <div className='industry__icon'>
+            <img src={toolsOp} alt='' />
+          </div>
+          <div className='industry__title'>
+            <p>Manufactura</p>
+          </div>
+        </Link>
+        <Link to='/Alimentos' className='indutry #5'>
+          <div className='industry__icon'>
+            <img src={airOp} alt='' />
+          </div>
+          <div className='industry__title'>
+            <p>
+              Transporte y
+              logística
+            </p>
+          </div>
+        </Link>
+        <Link to='/Alimentos' className='indutry #5'>
+          <div className='industry__icon'>
+            <img src={airOp} alt='' />
+          </div>
+          <div className='industry__title'>
+            <p>
+              Transporte y
+              logística
+            </p>
+          </div>
+        </Link>
       </div>
-
-      <Switch>
-        <Route exact path='/Energia'>
-          <Energia />
-        </Route>
-        <Route exact path='/Alimentos'>
-          <Alimentos />
-        </Route>
-      </Switch>
-
-    </Router>
+    </div>
 
   );
 };
