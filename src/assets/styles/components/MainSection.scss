@@ -1,7 +1,7 @@
 .main-section{
     display: grid;
     grid-template-columns: 75px 1fr;
-    min-height: 100vh;
+    min-height: -webkit-fill-available;
     grid-template-areas:
         "navbar hero";
 }
