@@ -21,3 +21,22 @@ body {
     margin: 0 auto!important;
     max-width: 1200px;
 }
+
+@keyframes fadeIn {
+    from {
+            opacity: 0;
+    }
+    to {
+            opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-fill-mode: 2s;
+    -webkit-animation-fill-mode: 2s;
+}
+

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useFixNavbarBug } from '../hooks/useFixNavbarBug';
 
-import Layout from '../containers/Layout';
+
 import Home from '../containers/Home';
 import Energia from '../containers/Energia';
 import Alimentos from '../containers/Alimentos';
@@ -15,7 +15,6 @@ export const App = () => {
   useFixNavbarBug();
   return (
     <BrowserRouter>
-
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/energia' component={Energia} />

@@ -32,7 +32,7 @@ function Menu() {
           </div>
         </Link>
         <Link
-          to='/Alimentos'
+          to='/alimentos'
           className='indutry #2'
         >
           <div className='industry__icon'>

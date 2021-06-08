@@ -21,7 +21,7 @@ import construccion from '../assets/static/cons-icon.svg';
 import Bot from './Bot';
 import Welcome from './Welcome';
 import Menu from './Menu';
-import Energia from './Energia';
+
 import Alimentos from './Alimentos';
 import Farmaceutica from './Farmaceutica';
 import Manufactura from './Manufactura';

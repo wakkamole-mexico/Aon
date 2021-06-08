@@ -1,12 +1,16 @@
 import React from 'react';
 import FarRiesgos from '../components/FarRiesgos';
 import FarServicios from '../components/FarServicios';
+import Nav from '../components/Nav';
 
 const Farmaceutica = () => {
   return (
-    <div>
-      <FarRiesgos />
-      <FarServicios />
+    <div className='main-section'>
+      <Nav />
+      <div className='hero fadeIn'>
+        <FarRiesgos />
+        <FarServicios />
+      </div>
     </div>
   );
 };
