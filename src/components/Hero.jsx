@@ -10,7 +10,6 @@ const Hero = () => (
     <Home />
     <Bot />
     <Menu />
-
   </div>
 );
 

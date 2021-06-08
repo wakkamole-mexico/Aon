@@ -11,7 +11,7 @@ import '../assets/styles/components/Hero.scss';
 import '../assets/styles/components/Nav.scss';
 
 import Nav from './Nav';
-import Hero from './Hero';
+
 import energia from '../assets/static/energia.svg';
 import food from '../assets/static/food.svg';
 import farm from '../assets/static/farm.svg';
