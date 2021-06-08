@@ -12,6 +12,7 @@ import food from '../assets/static/food.svg';
 import farm from '../assets/static/farm.svg';
 import tools from '../assets/static/tools.svg';
 import air from '../assets/static/air.svg';
+import TruckIcon from '../assets/static/truck-icon.svg';
 import construccion from '../assets/static/cons-icon.svg';
 import home from '../assets/static/home.svg';
 import Energia from './Energia';
@@ -25,7 +26,7 @@ function Nav() {
 
           <li>
             <NavLink
-              to='/Energia'
+              to='/energia'
               className='navbar--item red'
               activeClassName='opacity'
             >
@@ -35,7 +36,7 @@ function Nav() {
 
           <li>
             <NavLink
-              to='/Alimentos'
+              to='/alimentos'
               className='navbar--item yellow'
               activeClassName='opacity'
             >
@@ -44,7 +45,7 @@ function Nav() {
           </li>
           <li>
             <NavLink
-              to='/Farmaceutica'
+              to='/farmaceutica'
               className='navbar--item green'
               activeClassName='opacity'
             >
@@ -53,7 +54,7 @@ function Nav() {
           </li>
           <li>
             <NavLink
-              to='/Manufactura'
+              to='/manufactura'
               className='navbar--item purple'
               activeClassName='opacity'
             >
@@ -62,16 +63,16 @@ function Nav() {
           </li>
           <li>
             <NavLink
-              to='/Transporte'
+              to='/transporte'
               className='navbar--item blue'
               activeClassName='opacity'
             >
-              <img src={air} alt='' />
+              <img src={TruckIcon} alt='' />
             </NavLink>
           </li>
           <li>
             <NavLink
-              to='/Construccion'
+              to='/construccion'
               className='navbar--item red'
               activeClassName='opacity'
             >

@@ -7,7 +7,7 @@ import {
   NavLink,
 } from 'react-router-dom';
 
-import transporteIconWhite from '../assets/static/transporte-white.svg';
+import transporteIconWhite from '../assets/static/truck-white.svg';
 import EcoIcon from '../assets/static/eco.svg';
 import IconCash from '../assets/static/cash.svg';
 import IconBars from '../assets/static/bars.svg';

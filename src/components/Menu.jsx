@@ -11,6 +11,8 @@ import foodOp from '../assets/static/foodop.svg';
 import farmOp from '../assets/static/farmop.svg';
 import toolsOp from '../assets/static/toolsop.svg';
 import airOp from '../assets/static/airop.svg';
+import TruckOp from '../assets/static/truck.svg';
+import ConsOp from '../assets/static/cons-op.svg';
 import '../assets/styles/components/Menu.scss';
 import Energia from './Energia';
 import Alimentos from './Alimentos';
@@ -18,7 +20,7 @@ import Alimentos from './Alimentos';
 function Menu() {
   return (
 
-    <div className='menu u-wrapper' id='menu'>
+    <div className='menu u-wrapper' id='main'>
       <div className='menu__container'>
         <Link
           to='/energia'
@@ -45,7 +47,7 @@ function Menu() {
             </p>
           </div>
         </Link>
-        <Link to='/Alimentos' className='indutry #3'>
+        <Link to='/farmaceutica' className='indutry #3'>
           <div className='industry__icon'>
             <img src={farmOp} alt='' />
           </div>
@@ -56,7 +58,7 @@ function Menu() {
             </p>
           </div>
         </Link>
-        <Link to='/Alimentos' className='indutry #4'>
+        <Link to='/manufactura' className='indutry #4'>
           <div className='industry__icon'>
             <img src={toolsOp} alt='' />
           </div>
@@ -64,9 +66,9 @@ function Menu() {
             <p>Manufactura</p>
           </div>
         </Link>
-        <Link to='/Alimentos' className='indutry #5'>
+        <Link to='/transporte' className='indutry #5'>
           <div className='industry__icon'>
-            <img src={airOp} alt='' />
+            <img src={TruckOp} alt='' />
           </div>
           <div className='industry__title'>
             <p>
@@ -75,14 +77,13 @@ function Menu() {
             </p>
           </div>
         </Link>
-        <Link to='/Alimentos' className='indutry #5'>
+        <Link to='/construccion' className='indutry #5'>
           <div className='industry__icon'>
-            <img src={airOp} alt='' />
+            <img src={ConsOp} alt='' />
           </div>
           <div className='industry__title'>
             <p>
-              Transporte y
-              logística
+              Construcción
             </p>
           </div>
         </Link>

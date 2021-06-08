@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 
 import '../assets/styles/components/Servicios.scss';
-import transporteIconWhite from '../assets/static/transporte-white.svg';
+import transporteIconWhite from '../assets/static/truck-white.svg';
 import CadenaIcon from '../assets/static/cadena.svg';
 import ServiciosIcon from '../assets/static/servicios.svg';
 import IdeasIcon from '../assets/static/idea.svg';
